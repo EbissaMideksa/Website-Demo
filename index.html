@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock-Scissors-Paper</title>
+  <link rel="stylesheet" href="upload/12-rock-scissors.css">
+</head>
+<body>
+  <p class="css-title">Rock Scissors Paper </p>
+  <button class="image-sizing" 
+  onclick="playGame('Rock')
+    "> <img  class="image-sizing" src= "upload/images/Rock.png"></button>
+  <button class="image-sizing"
+  onclick="playGame('Scissors')
+    "><img class="image-sizing" src="upload/images/Scissors.png" alt=""></button>
+  <button class="image-sizing"
+  onclick=" 
+  playGame('Paper')
+    "> <img class="image-sizing" src="upload/images/Paper.png" alt=""></button>
+  
+
+    <p class="your-select" ></p>
+    <p class="display-result" ></p>
+   <p class="number-of-wins"> Wins:</p> 
+   
+  <button class="reset-button"
+  onclick="resetResult()"
+  >Reset</button>
+  <button onclick="autoPlay()" class="autoplay">AutoPlay</button>
+  <script src="upload/12-rock-scissors .js" ></script>
+</body>
+</html>
